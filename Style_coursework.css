@@ -56,7 +56,8 @@ img{
 #reference {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-    text-align: center;
+    width:700px;
+    margin:0 auto;
 }
 
 
