@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;0,700;0'); 
+
+/* background and text for all page */ 
+body {
+    background-color:#212121;
+    font-family: 'Source Code Pro', monospace;
+    }
+
+/* First Image */ 
+.hero-image {
+
+    background-image:url('./images/IMG_9507_copy.jpg');
+    min-height: 700px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+}
+
+@media (max-width: 768px) {
+    .hero-image{
+        min-height: 300px;
+    }
+/* Text under main image (on the blue screen of death) */ 
+}
+#headline1 {
+    color: white;
+    background-color: #0023F5; 
+    font-size: 1.2rem;
+    margin: 0px;
+    padding-left: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 40px;
+}
+p {
+    font-family: 'Source Code Pro', monospace;
+    
+    color: white;
+    background-color: #0023F5; 
+    padding-left: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 40px;
+}
+
+/* navbar styling */ 
+.navbar-brand {
+    padding-left: 10px; 
+
+}
+.bg-dark{
+    background-color: rgba(45, 45, 47, 0.8) !important; 
+}
+
+.navbar-toggler-item {
+
+    padding-right: 20px; 
+
+}
+
+.nav-link {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #2d2d2f !important;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px; 
+
+}
+
+
+
+/* names of website parts: exhibition, catalogue, sponsors, connect */ 
+span { 
+    background-color: #2d2d2f;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: 'Source Code Pro', monospace;
+    color: white !important; 
+    
+   
+}
+img.img-fluid {
+    padding-top: 10px;
+    margin-bottom: 17px; 
+
+}
+
+/* text in contact form */ 
+
+#end{
+    font-family: 'Source Code Pro', monospace;
+    
+    background-color: #2d2d2f !important;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px; 
+    margin: 0px; 
+}
+
+/* contact form  */ 
+
+.form-group
+{
+    padding-bottom:5px; 
+    padding-top: 15px; 
+
+
+}
+
+#exampleInputEmail1 {
+    background-color: #0023F5 !important;
+    border-color:  #0023F5 !important; 
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    padding-left: 25px;
+
+}
+#exampleFormControlTextarea1 {
+    background-color: #0023F5 !important;
+    border-color:  #0023F5 !important; 
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    padding-left: 25px;
+}
+
+.form-text{
+
+    padding-left:15px; 
+}
+
+
+
+.btn-primary{
+    background: #A7A5A5; 
+    border-color: #A7A5A5; 
+    font-family: 'Source Code Pro', monospace;
+    color: #0023F5; 
+    margin-left: 15px; 
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1; /* Firefox */
+  }
+
+ /* social media icons */ 
+
+ .social-media-icons-white a{
+     color:white; 
+     font-size: 1.3rem; 
+     margin-right: 10px;
+     margin-left: 10px;  
+ }
+
+
+  /* styling of all links */ 
+ a:link { text-decoration: none; }
+
+ a:visited { text-decoration: none; }
+ 
+ a:hover { font-weight: 600;}
+ 
+ a:active { text-decoration: none; }
