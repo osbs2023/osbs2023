@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;0,700;0'); 
+
+/* background and text for all page */ 
+body {
+    background-color:#212121;
+    font-family: 'Source Code Pro', monospace;
+    }
+
+
+/* navbar styling */ 
+.navbar-brand {
+    padding-left: 10px; 
+
+}
+.bg-dark{
+    background-color: rgba(45, 45, 47, 0.8) !important; 
+}
+
+.navbar-toggler-item {
+
+    padding-right: 20px; 
+
+}
+
+.nav-link {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #2d2d2f !important;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px; 
+
+}
+
+
+span { 
+    background-color: #2d2d2f;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: 'Source Code Pro', monospace;
+    color: white !important; 
+    
+   
+}
+
+
+
+
+
+
+ /* social media icons */ 
+
+ .social-media-icons-white a{
+     color:white; 
+     font-size: 1.3rem; 
+     margin-right: 10px;
+     margin-left: 10px;  
+ }
+
+
+  /* styling of all links */ 
+ a:link { text-decoration: none; }
+
+ a:visited { text-decoration: none; }
+ 
+ a:hover { font-weight: 600;}
+ 
+ a:active { text-decoration: none; }
+
+   /* space for logotypes (between rows)*/ 
+
+ .img-fluid{
+    margin-top: 50px; 
+
+}
+
