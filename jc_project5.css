@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;0,700;0'); 
+
+/* background and text for all page */ 
+body {
+    background-color:#212121;
+    font-family: 'Source Code Pro', monospace;
+    }
+
+
+/* navbar styling */ 
+.navbar-brand {
+    padding-left: 10px; 
+
+}
+.bg-dark{
+    background-color: rgba(45, 45, 47, 0.8) !important; 
+}
+
+.navbar-toggler-item {
+
+    padding-right: 20px; 
+
+}
+
+.nav-link {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #2d2d2f !important;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px; 
+
+}
+
+
+span { 
+    background-color: #2d2d2f;
+    padding-left: 25px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    font-family: 'Source Code Pro', monospace;
+    color: white !important; 
+    
+   
+}
+#name{ 
+    background-color: #2d2d2f;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: 'Source Code Pro', monospace;
+    color: white !important; 
+}
+
+
+
+
+ /* social media icons */ 
+
+ .social-media-icons-white a{
+     color:white; 
+     font-size: 1.3rem; 
+     margin-right: 10px;
+     margin-left: 10px;  
+ }
+
+
+  /* styling of all links */ 
+ a:link { text-decoration: none; }
+
+ a:visited { text-decoration: none; }
+ 
+ a:hover { text-decoration: none; }
+ 
+ a:active { text-decoration: none; }
+
+   /* portrait*/ 
+
+ .img-fluid{
+    margin-top: 0px; 
+
+}
+
+img.img-fluid {
+    padding-top: 10px;
+    margin-bottom: 0px; 
+
+}
+
+/* Project description */ 
+
+#headline1 {
+    font-family: 'Source Code Pro', monospace;
+
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 25px; 
+    padding-right: 25px; 
+    padding-bottom: 40px;
+    padding-top: 20px; 
+    margin-left:0px; 
+}
+#description {
+    font-family: 'Source Code Pro', monospace;
+
+    color: white;
+    padding-left: 25px; 
+    padding-right: 25px; 
+    padding-bottom: 20px;
+    margin-left:0px; 
+    margin-right:10px; 
+
+}
+
+
+ /* styling of all links */ 
+ a:link { text-decoration: none; 
+    color: white;
+}
+
+  
+
+
+.col{
+    padding-right:15px; 
+    padding-left:0px; 
+    margin-left:35px; 
+
+}
+
+#rimg{
+    padding-right:15px; 
+    padding-left:0px; 
+    margin-left:0px; 
+    margin-right:20px; 
+
+}
+
+#rimg2{
+    padding-right:15px; 
+    padding-left:0px; 
+    margin-left:0px; 
+    margin-right:20px; 
+
+}
+
+#rimg3{
+    padding-right:15px; 
+    padding-left:0px; 
+    margin-left:0px; 
+    margin-right:20px; 
+
+}
+
+
+img{
+	max-width: 100%;
+
+}
+.gallery img{
+	padding-bottom: 10px;
+	width: 100%;
+	cursor: pointer;
+}
+#gallery-popup .modal-img{
+	width: 100%;
+    
+}
+.modal-body{
+    padding:0px; 
+
+}
+
+a:visited { text-decoration: none; color:white;}
+ 
+a:hover { font-weight: 600; color:white;}
+
+a:active { text-decoration: none; color:white;}
+
+a{
+    color:white; 
+}
